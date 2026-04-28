@@ -2,7 +2,7 @@ using Infrastructure.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddScoped<DapperContext>();
+//builder.Services.AddScoped<DapperContext>();
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
